@@ -2,67 +2,104 @@ export default function WhatsAppSalesLandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-950 via-blue-900 to-black text-white font-sans">
       {/* Hero Section */}
-      <section className="px-6 py-16 md:py-24 max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-        <div>
-          <div className="inline-block px-4 py-2 rounded-full bg-yellow-400 text-black font-semibold text-sm mb-6 shadow-lg">
-            Transform Your Child’s Brain Power
-          </div>
+      <section className="min-h-screen bg-gradient-to-br from-blue-950 via-blue-900 to-black text-white px-6 py-16">
 
-          <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
-            Kids Brain Development <span className="text-yellow-400">Coach</span>
-          </h1>
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <p className="text-lg md:text-xl text-blue-100 leading-relaxed mb-8">
-            Help your child improve memory, concentration, focus, confidence, and learning speed through powerful brain activation techniques inspired by ancient wisdom and modern neuroscience.
-          </p>
+    {/* LEFT CONTENT */}
+    <div>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="https://wa.me/919686323317"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-400 transition-all duration-300 text-white font-bold px-8 py-4 rounded-2xl shadow-2xl text-center text-lg"
-            >
-              Join on WhatsApp
-            </a>
+      <div className="inline-block px-5 py-2 rounded-full bg-yellow-400 text-black font-bold text-sm mb-6 shadow-lg">
+        FREE 1-Hour Gandhari Vidya Demo Class
+      </div>
 
-            <a
-              href="#benefits"
-              className="border border-white/30 hover:bg-white/10 transition-all duration-300 px-8 py-4 rounded-2xl text-center text-lg"
-            >
-              Learn More
-            </a>
-          </div>
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-6">
+        Is Your Child Struggling With{" "}
+        <span className="text-yellow-400">
+          Focus, Concentration, or Memory?
+        </span>
+      </h1>
 
-          <div className="mt-8 flex flex-wrap gap-6 text-sm text-blue-200">
-            <div>✔ Improve Focus</div>
-            <div>✔ Better Memory</div>
-            <div>✔ Faster Learning</div>
-            <div>✔ Increased Confidence</div>
-          </div>
+      <p className="text-xl text-blue-100 leading-relaxed mb-8">
+        What if the problem is NOT your child… but the way they are being taught?
+      </p>
+
+      <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-7 border border-white/10 mb-8">
+
+        <p className="text-lg text-blue-50 mb-6 leading-relaxed">
+          Join our{" "}
+          <span className="text-yellow-400 font-bold">
+            FREE 1-Hour Gandhari Vidya Demo Class
+          </span>{" "}
+          and discover how children can improve:
+        </p>
+
+        <div className="grid grid-cols-2 gap-4 text-white text-lg font-medium">
+
+          <div>✅ Concentration</div>
+          <div>✅ Memory Power</div>
+
+          <div>✅ Focus</div>
+          <div>✅ Confidence</div>
+
+          <div>✅ Learning Speed</div>
+          <div>✅ Brain Activation</div>
+
         </div>
 
-        <div className="relative flex justify-center">
-          <div className="absolute inset-0 bg-yellow-400 blur-3xl opacity-20 rounded-full"></div>
+        <p className="mt-6 text-blue-100 text-lg">
+          Without pressure, punishment, or long study hours.
+        </p>
 
-          <div className="relative bg-white/10 backdrop-blur-xl rounded-[32px] p-6 border border-white/20 shadow-2xl max-w-sm w-full">
-            <img
-              src="/Proper without background.png"
-              alt="Naveen S H"
-              className="rounded-2xl mb-5 w-full h-[420px] object-contain bg-gradient-to-b from-blue-900 to-black p-2"
-            />
+        <p className="mt-5 text-yellow-300 font-semibold text-lg">
+          This is not tuition. This is Brain Activation Training by Chetana Kendra Brain Solution.
+        </p>
 
-            <h2 className="text-2xl font-bold mb-2">Naveen S H</h2>
-            <p className="text-yellow-300 mb-4">Kids Brain Development Coach</p>
+        <p className="mt-5 text-white font-semibold text-lg">
+          🎯 Specially designed for children aged 8–14 years.
+        </p>
 
-            <div className="space-y-3 text-blue-100 text-sm">
-              <div className="bg-white/10 rounded-xl p-3">🧠 Brain Activation Exercises</div>
-              <div className="bg-white/10 rounded-xl p-3">👁️ Focus & Concentration Training</div>
-              <div className="bg-white/10 rounded-xl p-3">⚡ Memory Enhancement Techniques</div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+
+      <a
+        href="https://wa.me/919686323317"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-yellow-400 hover:bg-yellow-300 text-black font-bold px-10 py-5 rounded-2xl shadow-2xl transition duration-300 text-lg"
+      >
+        Book Your Free Seat Now
+      </a>
+
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="relative flex justify-center">
+
+      <div className="absolute inset-0 bg-yellow-400 blur-3xl opacity-20 rounded-full"></div>
+
+      <div className="relative bg-white/10 backdrop-blur-xl rounded-[32px] p-6 border border-white/20">
+
+        <img
+          src="/Proper without background.png"
+          alt="Naveen S H"
+          className="rounded-3xl w-full max-w-md h-[500px] object-contain bg-gradient-to-b from-blue-950 to-black"
+        />
+
+        <h2 className="text-3xl font-bold mt-6 mb-2">
+          Naveen S H
+        </h2>
+
+        <p className="text-yellow-400 text-lg font-semibold">
+          Kids Brain Development Coach
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Benefits */}
       <section id="benefits" className="px-6 py-20 bg-white text-black">
@@ -198,7 +235,7 @@ export default function WhatsAppSalesLandingPage() {
             rel="noopener noreferrer"
             className="inline-block bg-green-500 hover:bg-green-400 transition-all duration-300 text-white font-bold px-10 py-5 rounded-2xl shadow-xl text-xl"
           >
-            Chat on WhatsApp Now
+            Book Your Free Seat Now
           </a>
         </div>
       </section>
